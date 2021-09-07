@@ -1,1 +1,1 @@
-# scrapy_inteligence_agency
+# scrapy_intelligence_agency

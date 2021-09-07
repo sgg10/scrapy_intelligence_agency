@@ -4,7 +4,6 @@ import scrapy
 # Quotes = //span[@class="text" and @itemprop="text"]/text()
 # Top ten tags = //div[contains(@class, "tags-box")]//span[@class="tag-item"]/a/text()
 # Next page button = //ul[@class="pager"]//li[@class="next"]/a/@href
-# 
 
 
 class QuotesSpider(scrapy.Spider):
