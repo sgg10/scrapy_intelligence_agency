@@ -1,0 +1,7 @@
+agency_sites:
+  cia:
+    url: 'https://www.cia.gov/readingroom/historical-collections'
+    queries:
+      declassified_links: '//a[starts-with(@href, "collection") and (parent::h3|parent::h2)]/@href'
+      declassified_title: '//h1[@class="documentFirstHeading"]/text()'
+      declassified_paragraph: '//div[@class="field-item even"]//p[not(@class) and not(child::strong and child::i)]/text()'
